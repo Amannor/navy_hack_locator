@@ -2,11 +2,199 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a0fd884-012a-434e-bef1-fc2cc5f8dc25" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ble.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inquiry.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serialstation.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/udp.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../PyBluez-0.22-cp35-none-win32.whl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../PyBluez-0.22-cp35-none-win_amd64.whl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/app/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/app/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/app/proguard-rules.pro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/app/src/main/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/app/src/main/java/com/google/android/gms/nearby/messages/samples/hellobeacons/BackgroundSubscribeIntentService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/app/src/main/java/com/google/android/gms/nearby/messages/samples/hellobeacons/MainActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/app/src/main/java/com/google/android/gms/nearby/messages/samples/hellobeacons/Utils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/app/src/main/res/drawable-hdpi/ic_nearby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/app/src/main/res/drawable-mdpi/ic_nearby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/app/src/main/res/drawable-xhdpi/ic_nearby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/app/src/main/res/drawable-xxhdpi/ic_nearby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/app/src/main/res/drawable-xxxhdpi/ic_nearby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/app/src/main/res/layout/activity_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/app/src/main/res/layout/content_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/app/src/main/res/menu/menu_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/app/src/main/res/values-v21/styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/app/src/main/res/values-w820dp/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/app/src/main/res/values/colors.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/app/src/main/res/values/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/app/src/main/res/values/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/app/src/main/res/values/styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/gradle.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/gradlew" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/gradlew.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Display-Messages/settings.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/app/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/app/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/app/proguard-rules.pro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/app/src/main/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/app/src/main/java/com/google/android/gms/nearby/messages/samples/hellobeacons/BackgroundSubscribeIntentService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/app/src/main/java/com/google/android/gms/nearby/messages/samples/hellobeacons/MainActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/app/src/main/java/com/google/android/gms/nearby/messages/samples/hellobeacons/Utils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/app/src/main/res/drawable-hdpi/ic_nearby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/app/src/main/res/drawable-mdpi/ic_nearby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/app/src/main/res/drawable-xhdpi/ic_nearby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/app/src/main/res/drawable-xxhdpi/ic_nearby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/app/src/main/res/drawable-xxxhdpi/ic_nearby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/app/src/main/res/layout/activity_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/app/src/main/res/layout/content_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/app/src/main/res/menu/menu_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/app/src/main/res/values-v21/styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/app/src/main/res/values-w820dp/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/app/src/main/res/values/colors.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/app/src/main/res/values/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/app/src/main/res/values/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/app/src/main/res/values/styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/gradle.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/gradlew" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/gradlew.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Finished/settings.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/app/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/app/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/app/proguard-rules.pro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/app/src/main/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/app/src/main/java/com/google/android/gms/nearby/messages/samples/hellobeacons/BackgroundSubscribeIntentService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/app/src/main/java/com/google/android/gms/nearby/messages/samples/hellobeacons/MainActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/app/src/main/java/com/google/android/gms/nearby/messages/samples/hellobeacons/Utils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/app/src/main/res/drawable-hdpi/ic_nearby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/app/src/main/res/drawable-mdpi/ic_nearby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/app/src/main/res/drawable-xhdpi/ic_nearby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/app/src/main/res/drawable-xxhdpi/ic_nearby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/app/src/main/res/drawable-xxxhdpi/ic_nearby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/app/src/main/res/layout/activity_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/app/src/main/res/layout/content_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/app/src/main/res/menu/menu_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/app/src/main/res/values-v21/styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/app/src/main/res/values-w820dp/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/app/src/main/res/values/colors.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/app/src/main/res/values/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/app/src/main/res/values/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/app/src/main/res/values/styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/gradle.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/gradlew" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/gradlew.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Nearby-Setup/settings.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/app/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/app/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/app/proguard-rules.pro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/app/src/main/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/app/src/main/java/com/google/android/gms/nearby/messages/samples/hellobeacons/BackgroundSubscribeIntentService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/app/src/main/java/com/google/android/gms/nearby/messages/samples/hellobeacons/MainActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/app/src/main/java/com/google/android/gms/nearby/messages/samples/hellobeacons/Utils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/app/src/main/res/drawable-hdpi/ic_nearby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/app/src/main/res/drawable-mdpi/ic_nearby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/app/src/main/res/drawable-xhdpi/ic_nearby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/app/src/main/res/drawable-xxhdpi/ic_nearby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/app/src/main/res/drawable-xxxhdpi/ic_nearby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/app/src/main/res/layout/activity_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/app/src/main/res/layout/content_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/app/src/main/res/menu/menu_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/app/src/main/res/values-v21/styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/app/src/main/res/values-w820dp/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/app/src/main/res/values/colors.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/app/src/main/res/values/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/app/src/main/res/values/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/app/src/main/res/values/styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/gradle.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/gradlew" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/gradlew.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Start/settings.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/app/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/app/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/app/proguard-rules.pro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/app/src/main/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/app/src/main/java/com/google/android/gms/nearby/messages/samples/hellobeacons/BackgroundSubscribeIntentService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/app/src/main/java/com/google/android/gms/nearby/messages/samples/hellobeacons/MainActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/app/src/main/java/com/google/android/gms/nearby/messages/samples/hellobeacons/Utils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/app/src/main/res/drawable-hdpi/ic_nearby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/app/src/main/res/drawable-mdpi/ic_nearby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/app/src/main/res/drawable-xhdpi/ic_nearby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/app/src/main/res/drawable-xxhdpi/ic_nearby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/app/src/main/res/drawable-xxxhdpi/ic_nearby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/app/src/main/res/layout/activity_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/app/src/main/res/layout/content_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/app/src/main/res/menu/menu_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/app/src/main/res/values-v21/styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/app/src/main/res/values-w820dp/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/app/src/main/res/values/colors.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/app/src/main/res/values/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/app/src/main/res/values/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/app/src/main/res/values/styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/gradle.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/gradlew" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/gradlew.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/HelloBeacons-Subscribe/settings.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hello-beacons-master/debug.keystore" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serialstation.py" afterPath="$PROJECT_DIR$/serialstation.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/udp.py" afterPath="$PROJECT_DIR$/udp.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,54 +209,24 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="139" lean-forward="false" selection-start-line="7" selection-start-column="103" selection-end-line="7" selection-end-column="139" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="udp.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="udp.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/udp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="inquiry.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inquiry.py">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="serialstation.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="serialstation.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/serialstation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="442">
+              <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ble.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ble.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -98,8 +256,8 @@
         <option value="$PROJECT_DIR$/inquiry.py" />
         <option value="$PROJECT_DIR$/ble.py" />
         <option value="$PROJECT_DIR$/serial.py" />
-        <option value="$PROJECT_DIR$/udp.py" />
         <option value="$PROJECT_DIR$/serialstation.py" />
+        <option value="$PROJECT_DIR$/udp.py" />
       </list>
     </option>
   </component>
@@ -140,24 +298,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="&lt; Python 3.5.2 (C:\Users\aayaffe\AppData\Local\Programs\Python\Python35\python.exe) &gt;" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local_station" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 3.5.2 (C:\Users\aayaffe\AppData\Local\Programs\Python\Python35\python.exe) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DLLs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -417,7 +557,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -428,7 +568,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39905363" sideWeight="0.4941435" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39905363" sideWeight="0.4941435" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -443,13 +583,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/serialstation.py</url>
-          <line>35</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
       <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
@@ -519,14 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="139" lean-forward="false" selection-start-line="7" selection-start-column="103" selection-end-line="7" selection-end-column="139" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ble.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -543,21 +675,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/udp.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        <state relative-caret-position="119">
+          <caret line="7" column="139" lean-forward="false" selection-start-line="7" selection-start-column="103" selection-end-line="7" selection-end-column="139" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/serialstation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="442">
+          <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/udp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

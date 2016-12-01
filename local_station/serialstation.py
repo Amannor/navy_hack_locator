@@ -18,7 +18,7 @@ ip = "192.168.1.144"
 STATION_ID = 1000
 udp.udpConnect()
 
-sendi = b'\x02'
+sendi = b'\x03'
 while 1:
     # get keyboard input
     # Python 3 users
@@ -26,8 +26,13 @@ while 1:
     # (note that I happend a \r\n carriage return and line feed to the characters - this is requested by my device)
     line=""
     try:
+        ret = udp.recvUdp()
+        if 0 != ret[1]:
+            ret = ser.write(sendi)
+    except Exception:
+        print ("No incoming message")
+    try:
         line = str(ser.readline(), 'utf-8')
-        ret = ser.write(sendi)
         print("wrote " + str(ret) + " bytes")
     except serial.serialutil.SerialException:
         print("Error reading serial")
