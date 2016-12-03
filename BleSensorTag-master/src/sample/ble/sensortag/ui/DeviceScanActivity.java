@@ -17,8 +17,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ListView;
 
+import java.net.InetAddress;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -51,6 +54,10 @@ public class DeviceScanActivity extends AppCompatActivity
 
     /** FAB. */
     private FloatingActionButton fab;
+    private Button setIP;
+    private Button setID;
+    private EditText stationId;
+    private EditText ipText;
     /** Device list. */
     private ListView listView;
     /** Empty list view. */
@@ -59,7 +66,8 @@ public class DeviceScanActivity extends AppCompatActivity
     private View progress;
     /** Device list adapter. */
     private BluetoothAdapter bluetoothAdapter;
-
+    private String ip = null;
+    private int id = 1000;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -85,6 +93,34 @@ public class DeviceScanActivity extends AppCompatActivity
                 setScanActive(!scanner.isScanning());
             }
         });
+        setIP = (Button) findViewById(R.id.setip);
+        setIP.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try{
+                    ip = InetAddress.getByName(ipText.getText().toString()).toString().split("/")[1];
+                }
+                catch(Exception e){
+                    Log.e("Amit","Error parse ip",e);
+                }
+            }
+        });
+        ipText = (EditText) findViewById(R.id.ipText);
+        setID = (Button) findViewById(R.id.setid);
+        setID.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try{
+                    id = parseInt(stationId.getText().toString());
+                }
+                catch(Exception e){
+                    Log.e("Amit","Error parse id",e);
+                }
+            }
+        });
+        stationId = (EditText) findViewById(R.id.station_id);
+
+
 
         final int bleStatus = BleUtils.getBleStatus(getBaseContext());
         switch (bleStatus) {
@@ -277,13 +313,17 @@ public class DeviceScanActivity extends AppCompatActivity
                     toRemove.add(device);
                 }
                 Log.d("Amit!!",device.getName()+" "+device.getAddress()+" "+scanMap.get(device));
-                if (device.getName().equals("CC2650 SensorTag")){
-                    int id = parseInt(device.getAddress().split(":")[5]);
+                if ((device.getName()!=null)&&(device.getName().equals("CC2650 SensorTag"))){
+                    int deviceID = parseInt(device.getAddress().split(":")[5]);
                     Integer power = scanMap.get(device);
                     if (power == null){
                         power = 0;
                     }
-                    new sendTask().execute("192.168.1.144","8079","{station_id = 1001, node_id = " +id+", power = " + Math.abs(power)+", voltage = 2.35}");
+                    if (ip==null)
+                        ip = "192.168.1.144";
+                    if (id<1)
+                        id = 1;
+                    new sendTask().execute(ip,"8079","{station_id = "+id+", node_id = " +deviceID+", power = " + Math.abs(power)+", voltage = 2.35}");
                 }
             }
             // remove missed devices
@@ -307,6 +347,7 @@ public class DeviceScanActivity extends AppCompatActivity
                 }
             });
         }
+
     }
 
 }
