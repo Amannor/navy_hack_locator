@@ -1,0 +1,313 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Location Track - Live Map</title>
+
+<link rel="stylesheet" type="text/css" href="location_track_php_code/resources/template/css/reset.css">
+<link rel="stylesheet" type="text/css" href="location_track_php_code/resources/template/css/general.css">
+<link rel="stylesheet" type="text/css" href="location_track_php_code/resources/template/css/jquery.svg.css">
+
+<!--[if IE 6]>
+<link rel="stylesheet" type="text/css" href="/demo/location-track/resources/template/css/ie6.css" />
+<![endif]-->
+<script src="data.json" type="text/javascript"></script>
+<script src="location_track_php_code/resources/template/javascript/library.js" type="text/javascript"></script>
+<script src="location_track_php_code/resources/template/javascript/general.js" type="text/javascript"></script>
+
+
+
+
+<!--//http://keith-wood.name/svg.html//-->
+<script type="text/javascript" src="location_track_php_code/resources/template/javascript/jquery/jquery-1.3.2.js"></script>
+<script type="text/javascript" src="location_track_php_code/resources/template/javascript/jquery/jquery.svg.js"></script>
+<script type="text/javascript" src="location_track_php_code/resources/template/javascript/jquery/jquery.svganim.js"></script>
+
+<script src="location_track_php_code/resources/livemap/livemap.js" type="text/javascript"></script>
+</head>
+
+<body bgcolor="#000000"">
+<div class="page-livemap">
+
+	<div class="wrapper">
+
+		<div class="header">
+			<div class="logo">
+				<img src="location_track_php_code/resources/maps/logo2.png" width="70" height="70">
+			</div>
+			<div class="line"></div>
+			<h1><a href="location-track/">Navy Ships - Personnel Locator</a></h1>
+
+
+		</div>
+
+		<div class="pagenavigation">
+
+<a href="index.php?p=livemap" class="selected">Live Map</a><a href="htmlTags.html" class="nonselected">Tags</a><a href="index.php?p=reader" class="nonselected">Readers</a><a href="index.php?p=map" class="nonselected">Maps</a><a href="index.php?p=user" class="nonselected">Users</a><a href="index.php?logout=1" class="nonselected">Logout</a>
+
+		</div>
+
+		<div class="bodycontent">
+
+
+<div id="svgmapcontainer" class="svgmapcontainer" style="width: 950px; height: 330px;"></div>
+
+<!--
+<div class="panel_filter">
+
+	<div class="panelitem">
+
+		<form method="get" action="index.php">
+			<div>
+				<input type="hidden" name="demo" value="1" />
+
+			</div>
+
+			<div class="row">
+				<div class="title"><label for="map_id">Map</label></div>
+				<div class="userinput"><select size="1" name="map_id" id="map_id" onchange="submit()" class="inputselect"><option value="9" selected="selected">Sample Map 1</option>
+</select></div>
+			</div>
+		</form>
+
+	</div>
+
+	<div class="panelitem panelitem-key">
+
+		<div class="title">Tag Key</div>
+
+		<ul>
+<li><img src="/demo/location-track/resources/livemap/sitepanel/marker.png" style="background-color: #f06363" width="14" height="14" /> Test Tag 1</li><li><img src="/demo/location-track/resources/livemap/sitepanel/marker.png" style="background-color: #88c54c" width="14" height="14" /> Test Tag 2</li><li><img src="/demo/location-track/resources/livemap/sitepanel/marker.png" style="background-color: #55aae0" width="14" height="14" /> Test Tag 3</li><li><img src="/demo/location-track/resources/livemap/sitepanel/marker.png" style="background-color: #c560f4" width="14" height="14" /> Test Tag 4</li><li><img src="/demo/location-track/resources/livemap/sitepanel/marker.png" style="background-color: #ffb85c" width="14" height="14" /> Test Tag 5</li>
+		</ul>
+
+	</div>
+
+</div>
+-->
+<div class="clear"></div>
+
+<script type="text/javascript">
+  <!--
+
+	var map_background = "location_track_php_code/resources/maps/topViewShip5.png";
+	var map_background_width = "950";
+	var map_background_height = "330";
+	
+	
+	var reader_locations = {
+	/*
+	16: {
+		"id": 16,
+		"name": "Kitchen",
+		"xpos": 640,
+		"ypos": 260
+	},
+	12: {
+		"id": 12,
+		"name": "Office",
+		"xpos": 480,
+		"ypos": 150
+	},
+	11: {
+		"id": 11,
+		"name": "Office 2",
+		"xpos": 310,
+		"ypos": 140
+	},
+	*/
+	17: {
+		"id": 17,
+		"name": "Reception",
+		"xpos": 830,
+		"ypos": 160
+	},
+	15: {
+		"id": 15,
+		"name": "Shop Area 1",
+		"xpos": 620,
+		"ypos": 160
+	},
+	14: {
+		"id": 14,
+		"name": "Shop Area 2",
+		"xpos": 400,
+		"ypos": 160
+	},
+	13: {
+		"id": 13,
+		"name": "Sector 2",
+		"xpos": 255,
+		"ypos": 160
+	},
+	10: {
+		"id": 10,
+		"name": "Sector 1",
+		"xpos": 100,
+		"ypos": 160
+	}
+};
+
+/*
+	var tags = {
+	3: {
+		"id": 3,
+		"addr": 100000,
+		"name": "Test Tag 1",
+		"colour": "#f06363"
+	},
+	2: {
+		"id": 2,
+		"addr": 200000,
+		"name": "Test Tag 2",
+		"colour": "#88c54c"
+	},
+	4: {
+		"id": 4,
+		"addr": 300000,
+		"name": "Test Tag 3",
+		"colour": "#55aae0"
+	},
+	5: {
+		"id": 5,
+		"addr": 400000,
+		"name": "Test Tag 4",
+		"colour": "#c560f4"
+	},
+	6: {
+		"id": 6,
+		"addr": 500000,
+		"name": "Test Tag 5",
+		"colour": "#ffb85c"
+	}
+};
+*/
+
+	var baseurl = "index.php?p=livemap_ajax&map_id=9";
+
+	var ajaxdata = {
+	"tags": {
+		3: {
+			"positions": {
+				0: {
+					"id": 27,
+					"xpos": 420,
+					"ypos": 300
+				},
+				1: {
+					"id": 31,
+					"xpos": 130,
+					"ypos": 340
+				},
+				2: {
+					"id": 35,
+					"xpos": 130,
+					"ypos": 100
+				}
+			}
+		},
+		2: {
+			"positions": {
+				0: {
+					"id": 29,
+					"xpos": 420,
+					"ypos": 300
+				},
+				1: {
+					"id": 33,
+					"xpos": 130,
+					"ypos": 340
+				},
+				2: {
+					"id": 37,
+					"xpos": 130,
+					"ypos": 100
+				}
+			}
+		},
+		4: {
+			"positions": {
+				0: {
+					"id": 23,
+					"xpos": 420,
+					"ypos": 300
+				},
+				1: {
+					"id": 24,
+					"xpos": 130,
+					"ypos": 340
+				},
+				2: {
+					"id": 25,
+					"xpos": 130,
+					"ypos": 100
+				}
+			}
+		},
+		5: {
+			"positions": {
+				0: {
+					"id": 26,
+					"xpos": 420,
+					"ypos": 300
+				},
+				1: {
+					"id": 30,
+					"xpos": 130,
+					"ypos": 340
+				},
+				2: {
+					"id": 34,
+					"xpos": 130,
+					"ypos": 100
+				}
+			}
+		},
+		6: {
+			"positions": {
+				0: {
+					"id": 28,
+					"xpos": 420,
+					"ypos": 300
+				},
+				1: {
+					"id": 32,
+					"xpos": 130,
+					"ypos": 340
+				},
+				2: {
+					"id": 36,
+					"xpos": 130,
+					"ypos": 100
+				}
+			}
+		}
+	}
+};
+
+	var livemap_ajax_refresh_sec = 1
+
+  //-->
+</script>
+	<label id="wheelHouse">Wheel House</label>
+	<label id="engine">Engine</label>
+	<label id="electronics">Electronics</label>
+	<label id="ciC">CIC</label>
+	<label id="bow">Bow</label>
+	
+	
+	<div class="soldierMenu" id="soldierMenu">
+		
+	</div>
+	
+		</div>
+
+	</div>
+<div class="lowerMenu">
+	<p id="printTest">
+	</p>
+</div>
+</div>
+
+
+</body>
+</html>

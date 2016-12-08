@@ -1,0 +1,3 @@
+#Options +Indexes
+#AddType x-mapp-php5 .php
+#DirectoryIndex index.php index.html index.htm

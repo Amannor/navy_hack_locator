@@ -1,0 +1,7 @@
+nodes_to_soldiers:
+ {' 5': {'last_seen_time':10, 'full_name': 'Soldier_ 5', 'job': 'super-emperor', 'personal_id': 500, 'last_seen_station_id': 1001}}
+ {' 6': {'last_seen_time':3, 'full_name': 'Soldier_ 6', 'job': 'manager', 'personal_id': 600, 'last_seen_station_id': 1000}}
+ {' 7': {'last_seen_time':50, 'full_name': 'Soldier_ 7', 'job': 'nurse', 'personal_id': 700, 'last_seen_station_id': 1001}}
+stations
+{'1000': Station num 1000 nodes {' 5': (' 12', ' 2.33')}}
+{'1001': Station num 1000 nodes {' 5': (' 12', ' 2.33')}}
